@@ -27,3 +27,12 @@ Any nested directory (e.g. `/sdcard`) is read as a regular file, not as a direct
 
 ### 3 second delay
 Each directory traversal requires 3 seconds of waiting. This is critically high for user experience.
+
+---
+
+## HOW TO BUILD
+
+```bash
+chmod +x build.sh
+sudo ./build.sh
+```
